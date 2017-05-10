@@ -20,8 +20,9 @@ public class NewbieServiceTest {
 	public void getMessageTest() {
 
 		String actual = newbieService.getMessage("test");
+		String expected = "bot : test1";
 
-		assertThat(actual, is("bot : test"));
+		assertThat(actual, is(expected));
 
 	}
 
