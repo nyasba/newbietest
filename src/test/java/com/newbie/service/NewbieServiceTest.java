@@ -19,7 +19,7 @@ public class NewbieServiceTest {
 	@Test
 	public void getMessageTest() {
 
-		String actual = newbieService.getMessage("test");
+		String actual = newbieService.getMessage("test1");
 
 		assertThat(actual, is("bot : test"));
 
